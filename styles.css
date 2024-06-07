@@ -1,13 +1,35 @@
-.header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i');
+
+* {
+    outline: 1px solid black;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     margin: 0px 80px;
 }
 
-* {
-    outline: 1px solid black;
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
 }
