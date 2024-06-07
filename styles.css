@@ -1,0 +1,13 @@
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px 80px;
+}
+
+* {
+    outline: 1px solid black;
+}
