@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     outline: 1px solid black;
@@ -111,4 +111,26 @@ li > a {
 .card p {
     width: 100px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote p {
+    margin: 0px 150px;
+}
+
+.quote p:nth-child(1) {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p:nth-child(2) {
+    font-weight: bold;
+    text-align: right;
 }
