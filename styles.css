@@ -173,3 +173,14 @@ li > a {
     padding: 6px 20px;
     color: white;
 }
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
